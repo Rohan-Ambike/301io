@@ -26,6 +26,7 @@ body {
     ;
     --gradient-3: linear-gradient(4.55deg, #CC338B 3.89%, #A33575 108.75%);
     --thin-border: 1px solid var(--grey-5);
+    --pink-border: 1px solid var(--pink);
 }
 
 * {
@@ -102,6 +103,14 @@ p {
 
 .gradient-3 {
     background: var(--gradient-3);
+}
+
+.thin-border {
+    border: var(--thin-border);
+}
+
+.pink-border {
+    border: var(--pink-border);
 }
 
 .white-hover:hover {

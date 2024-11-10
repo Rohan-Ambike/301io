@@ -1,0 +1,33 @@
+@media (min-width: 576px) {
+    #customers .swiper {
+        width: 100%;
+        max-height: 400px;
+        overflow-x: hidden;
+    }
+}
+
+@media (min-width: 768px) {
+    header img {
+        object-fit: cover;
+        width: 100%;
+        max-height: 50vh;
+    }
+}
+
+@media (min-width: 992px) {
+    #customers .swiper {
+        width: 100%;
+        max-height: 700px;
+        overflow-x: hidden;
+    }
+}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {
+    #customers .swiper {
+        width: 100%;
+        max-height: 800px;
+        overflow-x: hidden;
+    }
+}
