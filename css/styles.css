@@ -5,6 +5,7 @@ body {
     scroll-behavior: smooth;
     position: relative;
     height: 100%;
+    overflow-x: hidden;
 }
 
 :root {
@@ -18,11 +19,12 @@ body {
     --grey-5: #E6E6E6;
     --dark-1: #18181B;
     --shadow-1: 0 8px 16px 0 #0000001A;
-    --shadow-2: 0px 1px 5px #00000055;
+    --shadow-2: 0px 1px 6px 0 #0F172A1A;
     --gradient-1: linear-gradient(180deg, #C940AC 0%, #A33575 100%);
     ;
     --gradient-2: linear-gradient(180deg, #CC338B 0%, #A33575 100%);
     ;
+    --gradient-3: linear-gradient(4.55deg, #CC338B 3.89%, #A33575 108.75%);
     --thin-border: 1px solid var(--grey-5);
 }
 
@@ -96,6 +98,10 @@ p {
 
 .gradient-2 {
     background: var(--gradient-2);
+}
+
+.gradient-3 {
+    background: var(--gradient-3);
 }
 
 .white-hover:hover {

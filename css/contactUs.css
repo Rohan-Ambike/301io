@@ -1,0 +1,91 @@
+header img {
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+h1 {
+    padding-bottom: 8px;
+    font-size: 40px;
+}
+
+/* WORKPLACES */
+
+
+#workplaces .swiper-pagination {
+    top: 0;
+    bottom: auto;
+    right: 0;
+    left: auto;
+    display: flex;
+    justify-content: right;
+}
+
+#workplaces .swiper-pagination-bullet {
+    background-color: #ffffff;
+    height: 15px;
+    width: 15px;
+    margin-left: 20px;
+}
+
+#workplaces .swiper-pagination-bullet-active {
+    background-color: var(--pink);
+    height: 15px;
+    width: 15px;
+}
+
+#workplaces .swiper {
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+#workplaces .swiper-slide:nth-child(1) {
+    background: url(../images//contactus/workplace.png) no-repeat center/cover local transparent;
+}
+
+#workplaces .swiper-slide:nth-child(2) {
+    background: url(../images//contactus/workplace.png) no-repeat center/cover local transparent;
+}
+
+#workplaces .swiper-slide:nth-child(3) {
+    background: url(../images//contactus/workplace.png) no-repeat center/cover local transparent;
+}
+
+/* MESSAGE FORM */
+
+#message label h6 {
+    color: var(--grey);
+}
+
+/* Contact Info */
+
+#contactInfo .fa-bullhorn {
+    font-size: 50px;
+    color: white;
+}
+
+
+#contactInfo>img {
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+
+/* :root {
+    --pink: #CC338B;
+    --pink-2: #FFF4FA;
+    --pink-3: #F5D6E8;
+    --grey-1: #A0A0A0;
+    --grey-2: #666666;
+    --grey-3: #333333;
+    --grey-4: #D4D4D8;
+    --grey-5: #E6E6E6;
+    --dark-1: #18181B;
+    --shadow-1: 0 8px 16px 0 #0000001A;
+     --shadow-2: 0px 1px 6px 0 #0F172A1A;
+    --gradient-1: linear-gradient(180deg, #C940AC 0%, #A33575 100%);
+    ;
+    --gradient-2: linear-gradient(180deg, #CC338B 0%, #A33575 100%);
+    ;
+    --thin-border: 1px solid var(--grey-5);
+} */

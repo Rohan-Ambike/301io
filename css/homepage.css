@@ -243,3 +243,24 @@ header>.container>.row {
     height: 15px;
     width: 15px;
 }
+
+
+
+/* :root {
+    --pink: #CC338B;
+    --pink-2: #FFF4FA;
+    --pink-3: #F5D6E8;
+    --grey-1: #A0A0A0;
+    --grey-2: #666666;
+    --grey-3: #333333;
+    --grey-4: #D4D4D8;
+    --grey-5: #E6E6E6;
+    --dark-1: #18181B;
+    --shadow-1: 0 8px 16px 0 #0000001A;
+    --shadow-2: 0px 1px 6px 0 #0F172A1A;
+    --gradient-1: linear-gradient(180deg, #C940AC 0%, #A33575 100%);
+    ;
+    --gradient-2: linear-gradient(180deg, #CC338B 0%, #A33575 100%);
+    ;
+    --thin-border: 1px solid var(--grey-5);
+} */
