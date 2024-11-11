@@ -40,9 +40,9 @@ h1 {
 }
 
 
-#products .swiper-vertical>.swiper-pagination-bullets .swiper-pagination-bullet {
-    /* margin-bottom: 20px; */
-}
+/* #products .swiper-vertical>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin-bottom: 20px;
+} */
 
 #products .swiper-pagination-bullet-active {
     background-color: var(--pink);
