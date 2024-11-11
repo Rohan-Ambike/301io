@@ -1,0 +1,6 @@
+.stensil1 {
+    background: url(../images/general/stensils/spin.png), url(../images/general/stensils/spiral.png);
+    background-repeat: no-repeat;
+    background-position: top 5% left 1%, bottom -20% center;
+    background-size: 120px, 400px;
+}
