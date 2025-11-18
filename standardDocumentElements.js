@@ -1,110 +1,110 @@
 let navbarHtml = `
 <div class="container">
-            <div class="row d-flex py-4 my-2 justify-content-between">
+      <div class="row d-flex py-4 my-2 justify-content-between">
 
-                <div class="col-auto col-lg-4 d-flex d-lg-none align-items-center justify-content-center order-1">
-                    <div class="dropdown " style="z-index: 3;">
+        <div class="col-auto col-lg-4 d-flex d-lg-none align-items-center justify-content-center order-1">
+          <div class="dropdown " style="z-index: 3;">
 
-                        <button type="button" class="btn pink-btn br-2 btn dropdown-toggle d-flex align-items-center"
-                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <h6 class="p-2 fw-6">
-                                Explore
-                            </h6>
-                        </button>
-                        <ul class="dropdown-menu py-2" style="margin-left: 15px;padding: 0px;">
-                            <li class="nav-item ">
-                                <a class="nav-link  active" aria-current="page" href="#">
-                                    <h6 class="logIn p-3">
-                                        Home
-                                    </h6>
-                                </a>
-                            </li>
-                            <li class="nav-item ">
-                                <a class="nav-link  active" aria-current="page" href="#">
-                                    <h6 class="logIn p-3">
-                                        Product
-                                    </h6>
-                                </a>
-                            </li>
-                            <li class="nav-item ">
-                                <a class="nav-link  active" aria-current="page" href="#">
-                                    <h6 class="logIn p-3">
-                                        Services
-                                    </h6>
-                                </a>
-                            </li>
-                            <li class="nav-item ">
-                                <a class="nav-link  active" aria-current="page" href="#">
-                                    <h6 class="logIn p-3">
-                                        About Us
-                                    </h6>
-                                </a>
-                            </li>
-                            <li class="nav-item ">
-                                <a class="nav-link  active" aria-current="page" href="#">
-                                    <h6 class="logIn p-3">
-                                        Contact
-                                    </h6>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 d-none d-lg-block d-flex align-items-center justify-content-center px-0">
-                    <ul style="list-style-type: none;"
-                        class="d-flex h-100 align-items-center justify-content-between w-100 ps-0 mb-0">
-                        <li class="">
-                            <a href="#">
-                                <h6>Home</h6>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="#">
-                                <h6>Product</h6>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="#">
-                                <h6>Service</h6>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="#">
-                                <h6>About Us</h6>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="#">
-                                <h6>Contact</h6>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-4 d-flex align-items-center justify-content-center order-0 pb-4 pb-lg-0">
-                    <a href="#">
-                        <img src="./images/general/301io.png" alt="Logo" width="120">
-                    </a>
-                </div>
-
-                <div class="col-auto col-lg-4 d-flex align-items-center
-                justify-content-center justify-content-lg-end order-2">
-                    <a href="" class="d-none d-lg-block">
-                        <h6 class="logIn me-2">
-                            Log In
-                        </h6>
-                    </a>
-                    <a href="">
-                        <button type="button" class="btn pink-btn br-2 ms-md-4">
-                            <h6 class="p-2 fw-6">
-                                Let's Talk
-                            </h6>
-                        </button>
-                    </a>
-                </div>
-            </div>
+            <button type="button" class="btn pink-btn br-2 btn dropdown-toggle d-flex align-items-center" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              <h6 class="p-2 fw-6">
+                Explore
+              </h6>
+            </button>
+            <ul class="dropdown-menu py-2" style="margin-left: 15px;padding: 0px;">
+              <li class="nav-item ">
+                <a class="nav-link  active" aria-current="page" href="./index.html">
+                  <h6 class="logIn p-3">
+                    Home
+                  </h6>
+                </a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link  active" aria-current="page" href="./products.html">
+                  <h6 class="logIn p-3">
+                    Product
+                  </h6>
+                </a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link  active" aria-current="page" href="./service.html">
+                  <h6 class="logIn p-3">
+                    Services
+                  </h6>
+                </a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link  active" aria-current="page" href="./aboutUs.html">
+                  <h6 class="logIn p-3">
+                    About Us
+                  </h6>
+                </a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link  active" aria-current="page" href="./contactUs.html">
+                  <h6 class="logIn p-3">
+                    Contact
+                  </h6>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
+
+        <div class="col-lg-4 d-none d-lg-block d-flex align-items-center justify-content-center px-0">
+          <ul style="list-style-type: none;"
+            class="d-flex h-100 align-items-center justify-content-between w-100 ps-0 mb-0">
+            <li class="">
+              <a href="./index.html">
+                <h6>Home</h6>
+              </a>
+            </li>
+            <li class="">
+              <a href="./products.html">
+                <h6>Product</h6>
+              </a>
+            </li>
+            <li class="">
+              <a href="./service.html">
+                <h6>Service</h6>
+              </a>
+            </li>
+            <li class="">
+              <a href="./aboutUs.html">
+                <h6>About Us</h6>
+              </a>
+            </li>
+            <li class="">
+              <a href="./contactUs.html">
+                <h6>Contact</h6>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 d-flex align-items-center justify-content-center order-0 pb-4 pb-lg-0">
+          <a href="#">
+            <img src="./images/general/301io.png" alt="Logo" width="120">
+          </a>
+        </div>
+
+        <div class="col-auto col-lg-4 d-flex align-items-center
+                    justify-content-center justify-content-lg-end order-2">
+          <a href="#" class="d-none d-lg-block">
+            <h6 class="logIn me-2">
+              Log In
+            </h6>
+          </a>
+          <a href="#">
+            <button type="button" class="btn pink-btn br-2 ms-md-4">
+              <h6 class="p-2 fw-6">
+                Let's Talk
+              </h6>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
 `;
 
 let footerHtml = `
@@ -138,25 +138,30 @@ let footerHtml = `
                                 Company
                             </h6>
                         </li>
-                        <li>
-                            <h6>
-                                Home
-                            </h6>
+                        <li class="">
+                            <a href="./index.html">
+                                <h6>Home</h6>
+                            </a>
                         </li>
-                        <li>
-                            <h6>
-                                Product
-                            </h6>
+                        <li class="">
+                            <a href="./products.html">
+                                <h6>Product</h6>
+                            </a>
                         </li>
-                        <li>
-                            <h6>
-                                Service
-                            </h6>
+                        <li class="">
+                            <a href="./service.html">
+                                <h6>Service</h6>
+                            </a>
                         </li>
-                        <li>
-                            <h6>
-                                About Us
-                            </h6>
+                        <li class="">
+                            <a href="./aboutUs.html">
+                                <h6>About Us</h6>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="./contactUs.html">
+                                <h6>Contact</h6>
+                            </a>
                         </li>
                     </ul>
                 </div>
