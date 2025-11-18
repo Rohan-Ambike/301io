@@ -36,7 +36,7 @@ let navbarHtml = `
               <li class="nav-item ">
                 <a class="nav-link  active" aria-current="page" href="./aboutUs.html">
                   <h6 class="logIn p-3">
-                    About Us
+                    About
                   </h6>
                 </a>
               </li>
@@ -71,7 +71,7 @@ let navbarHtml = `
             </li>
             <li class="">
               <a href="./aboutUs.html">
-                <h6>About Us</h6>
+                <h6>About</h6>
               </a>
             </li>
             <li class="">
@@ -155,7 +155,7 @@ let footerHtml = `
                         </li>
                         <li class="">
                             <a href="./aboutUs.html">
-                                <h6>About Us</h6>
+                                <h6>About</h6>
                             </a>
                         </li>
                         <li class="">
